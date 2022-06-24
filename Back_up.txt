@@ -1,0 +1,36 @@
+<!-- <script>
+    //global variables
+    var firstName = document.getElementById("firstName").value;
+    var f1 = firstName.match(/[A-Z]*[a-z]*/i);
+    var lastName = document.getElementById("lastName").value;
+    var l1 = lastName.match(/[A-Z]*[a-z]*/g);
+    var userName = document.getElementById("userName").value;
+    var u1 = userName.match(/[A-Z]{1}[A-z]*[a-z]*[0-9]{4}[_,@]{1}/);
+    // validates the form
+    function validate() {
+      if (firstName == "" || firstName == null) {
+        document.getElementById("msg1").innerHTML = "First Name is mandatory";
+        return false;
+      } else if (f1 == null || f1 == "") {
+        document.getElementById("msg1").innerHTML = "Eg: John";
+        return false;
+      }
+      if (lastName == "" || lastName == null) {
+        document.getElementById("msg2").innerHTML = "Last Name is mandatory";
+        return false;
+      } else if (l1 == null || l1 == "") {
+        document.getElementById("msg2").innerHTML = "Eg: Doe";
+        return false;
+      }
+      if (userName == "" || userName == null) {
+        document.getElementById("msg3").innerHTML = "user name is mandatory";
+        return false;
+      }
+      if (userName.length > 10) {
+        document.getElementById("msg3").innerHTML =
+          "user name should not exceed 10 characters";
+      } else if (u1 == "" || u1 == null) {
+        document.getElementById("msg3").innerHTML = "Eg: JohnDoe@1234";
+      }
+    }
+  </script> -->

@@ -1,0 +1,76 @@
+body {
+    font-family: "Joan", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+    background: #222;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.container {
+    /* margin-top: 100px; */
+    margin-bottom: 200px;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+}
+
+/* .button {
+    padding: 20px;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button>button {
+    font-size: 17px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+.info {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+
+input {
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+}
+
+.final>input {
+    border: none;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: auto;
+}
+
+.final>input:hover {
+    background-color: blue;
+    color: white;
+}
+
+fieldset {
+    width: 500px;
+}
+
+span {
+    color: red;
+}
